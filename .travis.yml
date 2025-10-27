@@ -29,7 +29,7 @@ matrix:
     env: MVN_FLAG='-Pscala-2.12 -Pspark3 -Pthriftserver -DskipTests'
 
 jdk:
-  - openjdk8
+  - openjdk11
 
 cache:
   pip: true

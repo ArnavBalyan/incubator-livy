@@ -34,7 +34,7 @@ RUN apt-get install -qq \
     curl \
     git \
     libkrb5-dev \
-    openjdk-8-jdk-headless \
+    openjdk-11-jdk-headless \
     openjdk-17-jdk-headless \
     r-base \
     maven \
@@ -112,4 +112,3 @@ RUN pyenv rehash
 RUN apt remove -y openjdk-11-jre-headless
 
 WORKDIR /workspace
-

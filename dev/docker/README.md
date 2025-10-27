@@ -66,7 +66,7 @@ Type :help for more information.
 
 scala> println("Hello world!")
 Hello world!
-``` 
+```
 ### Submit requests to livy using REST apis
 Login to livy container directly and submit requests using REST endpoint
 ```
